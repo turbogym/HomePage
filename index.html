@@ -52,7 +52,7 @@
     </head>
     <body>
         <div class="logo">
-            <img src="/imgs/favicon.png" style="height: 100%;vertical-align:middle;">
+            <img src="imgs/favicon.png" style="height: 100%;vertical-align:middle;">
             <text>TurboGYM's Home</text>
         </div>
         <div class="myStyle">
@@ -60,9 +60,9 @@
         </div>
         <div class="nav">
             <div class="nav_img">
-                <a href="https://tech.byonecup.com/" target="_blank"><img src="/imgs/TechBlog.png" style="height: 100%;"></a>
+                <a href="https://tech.byonecup.com/" target="_blank"><img src="imgs/TechBlog.png" style="height: 100%;"></a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/turbogym/" target="_blank"><img src="/imgs/github.png" style="height: 100%;"></a>
+                <a href="https://github.com/turbogym/" target="_blank"><img src="imgs/github.png" style="height: 100%;"></a>
             </div>
         </div>
     </body>
@@ -70,7 +70,7 @@
         window.onload = choosePic;
  
         function choosePic() {
-            var myPix = new Array("/imgs/myStyle.png","/imgs/myStyle2.png","/imgs/myStyle3.png","/imgs/myStyle4.png","/imgs/myStyle5.png","/imgs/myStyle6.png","/imgs/myStyle7.png");
+            var myPix = new Array("imgs/myStyle.png","imgs/myStyle2.png","imgs/myStyle3.png","imgs/myStyle4.png","imgs/myStyle5.png","imgs/myStyle6.png","imgs/myStyle7.png");
             var randomNum = Math.floor((Math.random() * myPix.length));
             document.getElementById("myPicture").src = myPix[randomNum];
         }
