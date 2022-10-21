@@ -4,7 +4,11 @@
         <meta charset="utf-8">
         <title>TurboGYM's Home</title>
         <style type="text/css">
-            body, html {
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body,html {
                 background-image: linear-gradient(to left top, #8ec5fc, #e0c3fc, #f5eb7a);
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -27,7 +31,7 @@
             }
 
             .myStyle {
-                position: absolute;
+                position: fixed;
                 right: 0;
                 bottom: 0;
                 height: 95%;
@@ -50,7 +54,7 @@
             }
         </style>
     </head>
-    <body>
+    <body style="overflow:hidden;">
         <div class="logo">
             <img src="imgs/favicon.png" style="height: 100%;vertical-align:middle;">
             <text>TurboGYM's Home</text>
